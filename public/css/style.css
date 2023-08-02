@@ -1,0 +1,121 @@
+.user-image {
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.chat-section {
+    display: none;
+}
+
+#chat-container {
+    background-color: rgba(213, 213, 213, 0.889);
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.offline-status {
+    color: red;
+}
+
+.online-status {
+    color: green;
+}
+
+.current-user-chat {
+    text-align: right;
+    margin: 10px;
+    color: #000;
+}
+
+.distance-user-chat {
+    text-align: left;
+    margin: 10px;
+    color: #000;
+}
+
+.container-message {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.container-message .del_message {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.container-message .upate_message {
+    color: green;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.reveive {
+    background-color: #dcf8c6;
+}
+
+.send {
+    background-color: #f2f2f2;
+}
+
+.container-message::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container-message img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container-message img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.btn-secondary{
+    background-color: gray;
+    color: white;
+}
+
+.btn-danger{
+    background-color: red;
+    color: white;
+}
